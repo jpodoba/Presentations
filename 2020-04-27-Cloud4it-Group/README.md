@@ -1,6 +1,6 @@
 # „Azure DevOps Pipelines as Code”, czyli budowanie pipeline w oparciu o YAML
 
-Here you can find my presentation at the [Cloud4it Group #10 - Online](https://www.meetup.com/SysOpsWro/events/267608983/)
+Here you can find my presentation at the [Cloud4it Group #10 - Online](https://www.meetup.com/Cloud4it-Group/events/269948306/)
 
 | Session                                                                     | Samples                                                 | Slides                                                                                   | Video                                   |
 | --------------------------------------------------------------------------- | ------------------------------------------------------- | ---------------------------------------------------------------------------------------- | --------------------------------------- |

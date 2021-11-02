@@ -1,0 +1,35 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "location": {
+            "value": "northeurope"
+        },
+        "name": {
+            "value": "jpo2810"
+        },
+        "tags": {
+            "value": {
+                "env": "lab",
+                "project": "bicep",
+                "customer": "Jakub Podoba",
+                "projectRole": "demo"
+            }
+        },
+        "sku": {
+            "value": "B1"
+        },
+        "kind": {
+            "value": "linux"
+        },
+        "sites": {
+            "value": [
+                "jpo111new",
+                "jpo222new"
+            ]
+        },
+        "rgName": {
+            "value": "lab-jpodoba-bicep02-rg"
+        }
+    }
+}

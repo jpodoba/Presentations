@@ -77,10 +77,10 @@ az deployment sub create --location northeurope -f ./04-demo-06.bicep
 # external parameters
 - extract parameters to separate file
 ```
-az deployment sub create --location northeurope -f ./04-demo-07.bicep -p @dev.parameters.json
+az deployment sub create --location northeurope -f ./04-demo-07.bicep -p @lab.parameters.json
 ```
 
 - overwrite parameters
 ```
-az deployment sub create --location northeurope -f ./04-demo-07.bicep -p @dev.parameters.json -p name=jposoft
+az deployment sub create --location northeurope -f ./04-demo-07.bicep -p @lab.parameters.json -p name=jposoft
 ```
